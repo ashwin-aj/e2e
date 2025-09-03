@@ -1,5 +1,3 @@
-'use client';
-
 import { Inter } from 'next/font/google';
 import { AppProvider } from '../context/AppContext';
 import ThemeProvider from '../components/ThemeProvider';
