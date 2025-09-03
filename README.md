@@ -1,2 +1,2 @@
-# e2e
-e2e
+# flow-forge
+E2E automation
