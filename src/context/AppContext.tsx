@@ -1,3 +1,5 @@
+'use client';
+
 import React, { createContext, useContext, useReducer, ReactNode } from 'react';
 import { mockFlows, mockExecutions, mockApplications, mockUsers } from '../data/mockData';
 import { Flow, FlowExecution, Application, User, Theme } from '../types';
