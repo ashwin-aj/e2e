@@ -8,6 +8,10 @@ import '../styles/animations.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
+export const metadata = {
+  title: 'Orkestra: End-to-End Test Automation Pipeline Orchestration Platform',
+  description: 'End-to-End Test Automation Pipeline Orchestration Platform',
+};
 export default function RootLayout({
   children,
 }: {
@@ -15,11 +19,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <title>Orkestra: End-to-End Test Automation Pipeline Orchestration Platform</title>
-        <meta name="description" content="End-to-End Test Automation Pipeline Orchestration Platform" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </head>
       <body className={inter.className}>
         <AppProvider>
           <ThemeProvider>
